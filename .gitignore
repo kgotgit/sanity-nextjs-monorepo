@@ -67,3 +67,4 @@ yarn-error.log*
 
 # Dotenv and similar local-only files
 *.local
+production.tar.gz
