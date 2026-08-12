@@ -28,6 +28,15 @@ export const eventType = defineType({
                 .error(`Required to generate a page on the website`),
             hidden: ({ document }) => !document?.name,
             group: 'details',
+            readOnly: ({ value, currentUser }) => {
+                if(!value){
+                    return false
+                }
+                console.log('currentUser', currentUser)
+                const isAdmin = currentUser?.roles.some((role) => role.name === 'administrator')
+                console.log('isAdmin', isAdmin)
+                return !isAdmin
+            },
         }),
         defineField({
             name: 'eventType',
