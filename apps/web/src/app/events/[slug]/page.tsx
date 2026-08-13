@@ -12,6 +12,7 @@ const EVENT_QUERY = defineQuery(`*[
   ...,
   "date": coalesce(date, now()),
   "doorsOpen": coalesce(doorsOpen, 0),
+  "eventType": coalesce(eventFormat, eventType),
   headline->,
   venue->
 }`);

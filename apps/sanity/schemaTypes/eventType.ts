@@ -41,6 +41,19 @@ export const eventType = defineType({
         defineField({
             name: 'eventType',
             type: 'string',
+            readOnly: true,
+            deprecated: {
+                reason: 'Use the "Event format" field instead.'
+            },
+            options: {
+                list: ['in-person', 'virtual'],
+                layout: 'radio',
+            },
+            group: ['details', 'editorial'],
+        }),
+         defineField({
+            name: 'eventFormat',
+            type: 'string',
             options: {
                 list: ['in-person', 'virtual'],
                 layout: 'radio',
