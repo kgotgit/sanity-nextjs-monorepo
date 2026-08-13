@@ -100,7 +100,7 @@ export const eventType = defineType({
             group: 'editorial',
         }),
         defineField({
-            name: 'firstPublished',
+            name: 'firstPublishedAt',
             description: 'Automatically set when first published',
             type: 'datetime',
             readOnly: true,
