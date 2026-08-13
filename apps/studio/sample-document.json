@@ -1,0 +1,30 @@
+{
+  "_createdAt": "2024-02-11T17:20:18Z",
+  "_id": "AUoLUkEDo6CVeRx5svBdLZ",
+  "_rev": "d913d05d-68f4-47b9-8a18-a548ca13fd8a",
+  "_system": {
+    "base": {
+      "id": "AUoLUkEDo6CVeRx5svBdLZ",
+      "rev": "n2jKNmhOULls857Kr8II4Y"
+    }
+  },
+  "_type": "event",
+  "_updatedAt": "2026-08-13T03:05:10Z",
+  "date": "2026-04-10T03:33:35.810Z",
+  "doorsOpen": 270,
+  "eventType": "in-person",
+  "headline": {
+    "_ref": "artist-kendrick-lamar",
+    "_type": "reference"
+  },
+  "name": "Kendrick Lamar at Ronnie Scott's Jazz Club",
+  "slug": {
+    "_type": "slug",
+    "current": "kendrick-lamar-at-ronnie-scotts-jazz-club"
+  },
+  "tickets": "https://someticket.abc.net",
+  "venue": {
+    "_ref": "venue-lolympia",
+    "_type": "reference"
+  }
+}

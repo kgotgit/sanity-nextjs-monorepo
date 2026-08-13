@@ -99,6 +99,13 @@ export const eventType = defineType({
             type: 'url',
             group: 'editorial',
         }),
+        defineField({
+            name: 'firstPublished',
+            description: 'Automatically set when first published',
+            type: 'datetime',
+            readOnly: true,
+    })
+
     ],
     // After the "fields" array
     // Update the preview key in the schema
