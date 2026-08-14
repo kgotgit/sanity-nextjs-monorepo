@@ -7,5 +7,8 @@ export default defineCliConfig({
   },
   server:{
     port: 3334
+  },
+  deployment:{
+    appId: 'r67eoy46smb8l2fnftm7ki86'
   }
 })
